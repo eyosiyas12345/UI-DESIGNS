@@ -33,19 +33,22 @@ img{
 }
 .columns{
   display:flex;
+  justify-content:space-between;
+  align-items:flex-start;;
   margin:1em 0;
 }
+
 .colbg{
   background-color: #212614;
   color:#fff;
   padding:1em;
 }
 .col-1{
-width:25%;
+width:20%;
 }
 .col-2{
-width:50%;
+width:45%;
 }
 .col-3{
-width:75%;
+width:70%;
 }
